@@ -9,7 +9,7 @@ public class Negara {
     private int bulan;
     private int tahun;
 
-    // Constructor untuk negara biasa
+    
     public Negara(String nama, String jenisKepemimpinan,
                   String namaPemimpin, int tanggal,
                   int bulan, int tahun) {
@@ -21,7 +21,7 @@ public class Negara {
         this.tahun = tahun;
     }
 
-    // Constructor khusus monarki
+    
     public Negara(String nama, String jenisKepemimpinan,
                   String namaPemimpin) {
         this(nama, jenisKepemimpinan, namaPemimpin, 0, 0, 0);
